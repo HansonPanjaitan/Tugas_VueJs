@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <nav class="py-3 font-bold text-2xl px-20 text-gray-100 space-x-4 bg-green-400">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+      <router-link to="/user">User</router-link>
+    </nav>
     <router-view/>
   </div>
 </template>
